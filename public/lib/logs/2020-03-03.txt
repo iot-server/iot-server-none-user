@@ -1,0 +1,47 @@
+Time : 18:03:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') WHERE id = ? and device_key = ?' at line 1
+Raw SQL : UPDATE cmds SET is_execute = 1,exec_time = date() WHERE id = :i and device_key = :k
+
+Time : 17:49:51
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') WHERE id = ? and device_key = ?' at line 1
+Raw SQL : UPDATE cmds SET is_execute = 1,exec_time = date() WHERE id = :i and device_key = :k
+
+Time : 17:49:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') WHERE id = ? and device_key = ?' at line 1
+Raw SQL : UPDATE cmds SET is_execute = 1,exec_time = date() WHERE id = :i and device_key = :k
+
+Time : 17:44:44
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'is_extcute' in 'field list'
+Raw SQL : UPDATE cmds SET is_extcute = 1 WHERE id = :i and device_key = :k
+
+Time : 17:44:22
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cmd_id' in 'where clause'
+Raw SQL : UPDATE cmds SET is_extcute = 1 WHERE cmd_id = :i and device_key = :k
+
+Time : 16:04:30
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values' at line 1
+Raw SQL : Select count(*) as count from values
+
+Time : 16:03:53
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values' at line 1
+Raw SQL : Select count(*) as count from values
+
+Time : 16:03:02
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values' at line 1
+Raw SQL : Select count(*) as count from values
+
+Time : 16:03:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values' at line 1
+Raw SQL : Select count(*) as count from values
+
+Time : 16:00:50
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values' at line 1
+Raw SQL : Select count(*) as count from values
+
+Time : 16:00:26
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values' at line 1
+Raw SQL : Select count(*) as count from values
+
+Time : 15:59:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values' at line 1
+Raw SQL : Select count(*) as count from values
